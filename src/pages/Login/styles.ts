@@ -1,13 +1,9 @@
-import {
-  KeyboardAvoidingViewProps,
-  ScrollViewProps,
-  SafeAreaView,
-} from 'react-native';
+import { KeyboardAvoidingViewProps, ScrollViewProps } from 'react-native';
 
 import styled from 'styled-components/native';
 import { isIOS } from 'utils/constants';
 
-export const ContainerLogin = styled(SafeAreaView)`
+export const ContainerLogin = styled.SafeAreaView`
   flex: 1;
   align-items: center;
   justify-content: center;
